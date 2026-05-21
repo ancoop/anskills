@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "anskills",
+  "description": "A curated marketplace of Claude Code skill plugins. Clone the repo, add it as a marketplace, and install any skill from it.",
+  "owner": {
+    "name": "coop",
+    "email": "cooper.small@gladly.com"
+  },
+  "plugins": [
+    {
+      "name": "business-plan-research",
+      "description": "Conduct unbiased, citation-backed market research for a business idea and produce a structured business plan as a Google Doc. Spawns parallel research agents, synthesizes findings with inline citations, generates charts via quickchart.io, and uploads the final report as a Google Doc.",
+      "author": {
+        "name": "coop",
+        "email": "cooper.small@gladly.com"
+      },
+      "category": "research",
+      "source": "./plugins/business-plan-research",
+      "homepage": "https://github.com/coop/anskills/tree/main/plugins/business-plan-research"
+    }
+  ]
+}
