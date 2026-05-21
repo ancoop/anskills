@@ -15,11 +15,11 @@ Plugins in this marketplace:
 From inside Claude Code, run:
 
 ```
-/plugin marketplace add coop/anskills
+/plugin marketplace add ancoop/anskills
 /plugin install business-plan-research@anskills
 ```
 
-That's it. `coop/anskills` resolves to `https://github.com/coop/anskills`. If you've forked the repo or are hosting it elsewhere, substitute your `owner/repo` slug, full URL, or local path.
+That's it. `ancoop/anskills` resolves to `https://github.com/ancoop/anskills`. If you've forked the repo or are hosting it elsewhere, substitute your `owner/repo` slug, full URL, or local path.
 
 To verify:
 
